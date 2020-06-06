@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+
+* {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.logo {
+  width: 64%;
+}
+
+
+/* Navigation */
+.main-nav {
+  width: 100%;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-item {
+  background-color: #e60023;
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  border-radius: 4px;
+  width: 17%;
+}
+
+.nav-link {
+  font-size: 19px !important;
+  color: whitesmoke !important;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: white !important;
+  background-color: #f57224;
+  border-radius: 4px;
+  box-shadow: 4px 4px 5px grey;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-item {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .main-nav {
+    text-align: center;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+}
+
+/* End / */
+
+/* Carousel */
+
+.carousel-inner {
+  max-height: 500px;
+
+  img {
+    max-height: 400px;
+  }
+}
+
+/* End / */
+
+/* Animation */
+.img-zoom {
+  transition: transform 0.5s;
+}
+
+.img-zoom:hover {
+  transform: scale(1.1);
+}
+
+/* Categories */
+.category-heading {
+  color: whitesmoke;
+  font-size: 38px;
+  background-color: #ba1319;
+  width: 30%;
+  clip-path: polygon(0% 0%, 90% 0, 100% 56%, 100% 100%, 0% 100%);
+}
+
+@media screen and (max-width: 991px) {
+  .category-heading {
+    width: 100% !important;
+    text-align: center;
+    clip-path: polygon(0% 0%, 94% 0, 100% 59%, 100% 100%, 0% 100%);
+  }
+}
+
+/* End / */
+
+/* Card */
+.card-title {
+  font-size: 23px !important;
+  color: #e60023;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: -1px 2px 18px -1px grey !important;
+  border: none;
+}
+
+.shop-btn {
+  background-color: #f57224;
+  color: white;
+  font-size: 21px;
+}
+
+.shop-btn:hover {
+  box-shadow: -1px 2px 18px -1px grey !important;
+  background-color: #e60023;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+/* End / */
+
+/* Store */
+.store-text {
+  font-size: 19.9px !important;
+  color: #e60023;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* End / */
+
+/* Footer */
+
+.footer {
+  background-color: #ba1319;
+  height: auto;
+  color: white;
+}
+
+.footer-a {
+  text-decoration: none !important;
+  color: white;
+  opacity: 0.7;
+  font-size: 19px;
+}
+
+.footer-a:hover {
+  opacity: 1;
+  color: white;
+}
+
+.footer-data {
+  font-size: 17px;
+  opacity: 0.7;
+}
+
+/* End / */
+
+/* Contact Us */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.main-card {}
+
+.fa-truck {
+  font-size: 52px !important;
+}
+
+.card-1 {
+  display: flex;
+  width: 35%;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 2px 4px 5px grey;
+}
+
+/* Emd / */
